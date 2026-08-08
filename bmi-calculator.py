@@ -17,21 +17,6 @@
 #else:
  #   print('You are Obese')
 
-def bmi_calculator(weight: float, height_cm:float):
-    height_m = height_cm/100
-    bmi = weight / (height_cm ** 2)
-    return round(bmi, 2)
-
-def bmi_class(bmi: float):
-    if bmi < 18.5:
-        return"You are Underweight."
-    elif bmi >= 18.5 and bmi <= 24.9:
-        return"You are Normal weight."
-    elif bmi >= 25.0 and bmi <= 29.9:
-        return"You are Overweight."
-    else:
-        return"You are Obese."
-
 
     
 
