@@ -22,7 +22,7 @@ def bmi_calculator(w:int, h_cm:int) -> Tuple[float, str]:
 
 if __name__ == "__main__": #tells python to Only run the input section if I'm directly running this file.
     weight = int(input('Enter your weight in kg: '))
-    height = int(input('Enter your weight in cm: '))
+    height = int(input('Enter your height in cm: '))
     bmi_round, category = bmi_calculator(weight, height)
     print(f'Your BMI is {bmi_round}')
     print(f'You are {category}')
