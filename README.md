@@ -37,7 +37,7 @@ Category: Normal weight
 ```
 
 ## Error Handling
-The calculator rejects zero or negative values for weight and height.
+The calculator rejects zero or negative values for weight and height by raising a `ValueError`.
 
 For example:
 - Weight of 0 kg → Error
@@ -47,6 +47,13 @@ For example:
 
 ## Testing
 The project uses pytest for automated testing.
+The test suite covers:
+
+- BMI calculations
+- BMI categories
+- Zero and negative weight
+- Zero and negative height
+- BMI category boundaries at 18.5, 25.0, and 30.0
 Run the test suite with:
 
 ```bash
