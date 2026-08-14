@@ -70,17 +70,18 @@ http://127.0.0.1:8000/docs
 You can use the Swagger UI to test the API endpoints.
 
 API Endpoints
-Method	Endpoint	            Description
 
-POST	/details/	            Create a patient
+Method	    Endpoint	                Description
 
-GET	    /patients/	            Retrieve all patients
+POST	    /details/	                Create a patient
 
-GET	    /patients/{patient_id}	Retrieve a patient
+GET	        /patients/	                Retrieve all patients
 
-PUT	    /patients/{patient_id}	Update a patient
+GET	        /patients/{patient_id}	    Retrieve a patient
 
-DELETE	/patients/{patient_id}	Delete a patient
+PUT	        /patients/{patient_id}	    Update a patient
+
+DELETE	    /patients/{patient_id}	    Delete a patient
 
 Validation
 The API validates patient information before accepting requests.
@@ -124,6 +125,7 @@ Example Patient
 Example patient data:
 
 {
+
     "patient_id": "TEST-001",
 
     "name": "John Doe",
@@ -137,6 +139,7 @@ Example patient data:
     "gender": "M",
 
     "condition": "Hypertension"
+    
 }
 
 Error Handling
