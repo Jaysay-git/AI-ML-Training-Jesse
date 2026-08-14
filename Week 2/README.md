@@ -67,7 +67,9 @@ FastAPI automatically provides interactive API documentation.
 
 After starting the server, open:
 http://127.0.0.1:8000/docs
+
 You can use the Swagger UI to test the API endpoints.
+
 
 API Endpoints
 
@@ -83,26 +85,36 @@ PUT	        /patients/{patient_id}	    Update a patient
 
 DELETE	    /patients/{patient_id}	    Delete a patient
 
+
 Validation
+
 The API validates patient information before accepting requests.
 
 Age
+
 Patient age must be between 0 and 120.
 
 Email
+
 Patient email addresses must be valid email addresses.
 
 Phone Number
+
 Phone numbers must contain only valid numeric characters and must meet the required length.
 
 Gender
+
 Only accepted gender values are allowed.
 
 Invalid input returns:
+
 422 Unprocessable Entity
+
 with details describing the validation error.
 
+
 HTTP Status Codes
+
 The API uses meaningful HTTP status codes:
 | Status Code | Meaning                      |
 | ----------- | ---------------------------- |
@@ -113,6 +125,7 @@ The API uses meaningful HTTP status codes:
 | 422         | Invalid input                |
 
 Running Tests
+
 The project includes automated tests using pytest.
 
 From the Week 2 project directory, run:
@@ -122,6 +135,7 @@ A successful test run should show:
 13 passed
 
 Example Patient
+
 Example patient data:
 
 {
@@ -139,13 +153,19 @@ Example patient data:
     "gender": "M",
 
     "condition": "Hypertension"
-    
+
 }
 
 Error Handling
+
 The API returns appropriate errors when:
+
 A patient does not exist
+
 An invalid email is provided
+
 An invalid phone number is provided
+
 An invalid gender is provided
+
 An invalid age is provided
