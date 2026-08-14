@@ -71,10 +71,15 @@ You can use the Swagger UI to test the API endpoints.
 
 API Endpoints
 Method	Endpoint	            Description
+
 POST	/details/	            Create a patient
+
 GET	    /patients/	            Retrieve all patients
+
 GET	    /patients/{patient_id}	Retrieve a patient
+
 PUT	    /patients/{patient_id}	Update a patient
+
 DELETE	/patients/{patient_id}	Delete a patient
 
 Validation
@@ -117,15 +122,23 @@ A successful test run should show:
 
 Example Patient
 Example patient data:
+
 {
     "patient_id": "TEST-001",
+
     "name": "John Doe",
+
     "age": 35,
+
     "email": "john@example.com",
+
     "number": "08123456789",
+
     "gender": "M",
+
     "condition": "Hypertension"
 }
+
 Error Handling
 The API returns appropriate errors when:
 A patient does not exist
