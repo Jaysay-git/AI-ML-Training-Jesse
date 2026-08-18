@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, status, Body 
+from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel, EmailStr, Field, field_validator
 
 app = FastAPI()
@@ -11,6 +11,7 @@ class Patient(BaseModel):
     number: str
     gender: str
     condition: str
+
     @field_validator("number")
     @classmethod
     def validate_phone_number(cls, value):
@@ -36,32 +37,17 @@ class Patient(BaseModel):
 
 patients = []
 
-@app.post("/details/")
-def create_patient(
-    patient_id: str,
-    name: str,
-    age: int,
-    email: str,
-    number: str,
-    gender: str,
-    condition: str
-):
-    patient = Patient(
-        patient_id=patient_id,
-        name=name,
-        age=age,
-        email=email,
-        number=number,
-        gender=gender,
-        condition=condition
-    )
 
+@app.post("/patients/", status_code=status.HTTP_201_CREATED)
+def create_patient(patient: Patient):
     patients.append(patient)
-    return patients
+    return patient
+
 
 @app.get("/patients/")
 def get_patients():
     return patients
+
 
 @app.get("/patients/{patient_id}")
 def get_patient(patient_id: str):
@@ -75,12 +61,8 @@ def get_patient(patient_id: str):
     )
 
 
-
 @app.put("/patients/{patient_id}")
-def update_patient(
-    patient_id: str,
-    updated_patient: Patient = Body(...)
-):
+def update_patient(patient_id: str, updated_patient: Patient):
     for i, patient in enumerate(patients):
         if patient.patient_id == patient_id:
             patients[i] = updated_patient
@@ -91,21 +73,18 @@ def update_patient(
         detail="Patient not found"
     )
 
-@app.delete("/patients/{patient_id}", status_code=status.HTTP_204_NO_CONTENT)
+
+@app.delete(
+    "/patients/{patient_id}",
+    status_code=status.HTTP_204_NO_CONTENT
+)
 def delete_patient(patient_id: str):
     for i, patient in enumerate(patients):
         if patient.patient_id == patient_id:
             patients.pop(i)
             return
+
     raise HTTPException(
-    status_code=404,
-    detail="Patient not found"
-)
-
-
-
-@app.post("/patients/", status_code=status.HTTP_201_CREATED)
-def create_patient(patient: Patient):
-    patients.append(patient)
-    return patient
-
+        status_code=404,
+        detail="Patient not found"
+    )

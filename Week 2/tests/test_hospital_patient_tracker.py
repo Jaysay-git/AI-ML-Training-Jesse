@@ -170,3 +170,34 @@ def test_invalid_gender():
     )
 
     assert response.status_code == 422
+
+def test_missing_email():
+    response = client.post(
+        "/patients/",
+        json={
+            "patient_id": "TEST-007",
+            "name": "Missing Email",
+            "age": 30,
+            "number": "08123456789",
+            "gender": "M",
+            "condition": "Malaria"
+        }
+    )
+
+    assert response.status_code == 422
+
+
+def test_missing_name():
+    response = client.post(
+        "/patients/",
+        json={
+            "patient_id": "TEST-008",
+            "age": 30,
+            "email": "missingname@gmail.com",
+            "number": "08123456789",
+            "gender": "M",
+            "condition": "Malaria"
+        }
+    )
+
+    assert response.status_code == 422
