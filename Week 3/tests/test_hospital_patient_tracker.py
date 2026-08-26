@@ -1,8 +1,10 @@
 from fastapi.testclient import TestClient
+
+from database import SessionLocal
+from models import Patient
 from hospital_patient_tracker import app
 
 client = TestClient(app)
-
 def test_create_patient():
     response = client.post(
         "/patients/",
@@ -201,3 +203,33 @@ def test_missing_name():
     )
 
     assert response.status_code == 422
+
+def test_create_patient_persists_to_database():
+    response = client.post(
+        "/patients/",
+        json={
+            "patient_id": "DB-TEST-001",
+            "name": "Database Test Patient",
+            "age": 40,
+            "email": "dbtest@gmail.com",
+            "number": "08123456789",
+            "gender": "M",
+            "condition": "Malaria"
+        }
+    )
+
+    assert response.status_code == 201
+
+    db = SessionLocal()
+
+    try:
+        patient = db.query(Patient).filter(
+            Patient.patient_id == "DB-TEST-001"
+        ).first()
+
+        assert patient is not None
+        assert patient.patient_id == "DB-TEST-001"
+        assert patient.name == "Database Test Patient"
+
+    finally:
+        db.close()
