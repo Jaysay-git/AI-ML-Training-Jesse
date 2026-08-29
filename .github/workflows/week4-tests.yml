@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      JWT_SECRET: "ci-test-secret-key-that-is-at-least-32-characters-long"
+      JWT_SECRET_KEY: "ci-test-secret-key-that-is-at-least-32-characters-long"
       DATABASE_URL: "postgresql+psycopg://postgres:postgres@localhost:5433/hospital_patients"
-
+      
     services:
       postgres:
         image: postgres:18
