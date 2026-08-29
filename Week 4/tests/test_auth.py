@@ -6,6 +6,16 @@ from hospital_patient_tracker import app
 client = TestClient(app)
 
 
+def ensure_test_user():
+    client.post(
+        "/signup",
+        json={
+            "username": "testuser_week4",
+            "password": "testpassword"
+        }
+    )
+
+
 def test_password_hashing():
     from auth import hash_password, verify_password
 
@@ -33,6 +43,8 @@ def test_signup():
 
 
 def test_login():
+    ensure_test_user()
+
     response = client.post(
         "/login",
         json={
@@ -47,6 +59,8 @@ def test_login():
 
 
 def test_invalid_login():
+    ensure_test_user()
+
     response = client.post(
         "/login",
         json={
@@ -65,6 +79,8 @@ def test_protected_endpoint_without_token():
 
 
 def test_protected_endpoint_with_token():
+    ensure_test_user()
+
     login_response = client.post(
         "/login",
         json={
@@ -73,8 +89,7 @@ def test_protected_endpoint_with_token():
         }
     )
 
-    if login_response.status_code == 429:
-        return
+    assert login_response.status_code == 200
 
     token = login_response.json()["access_token"]
 
@@ -104,6 +119,7 @@ def test_login_rate_limiting():
 
     assert 429 in responses
 
+
 def test_request_does_not_log_sensitive_data(caplog):
     sensitive_value = "SECRET-PASSWORD-123"
 
@@ -117,3 +133,4 @@ def test_request_does_not_log_sensitive_data(caplog):
         )
 
     assert sensitive_value not in caplog.text
+
