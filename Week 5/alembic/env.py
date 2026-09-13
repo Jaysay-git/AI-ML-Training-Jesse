@@ -15,6 +15,14 @@ config = context.config
 database_url = os.getenv("DATABASE_URL")
 
 if database_url:
+    database_url = database_url.replace(
+        "postgres://", "postgresql+psycopg://"
+    ).replace(
+        "postgresql://", "postgresql+psycopg://"
+    ).replace(
+        "postgresql+psycopg2://", "postgresql+psycopg://"
+    )
+
     config.set_main_option("sqlalchemy.url", database_url)
 
 # Interpret the config file for Python logging.
