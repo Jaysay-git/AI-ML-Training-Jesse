@@ -35,3 +35,13 @@ class PatientCreate(BaseModel):
 class UserCreate(BaseModel):
     username: str
     password: str
+
+class PredictionRequest(BaseModel):
+    age: int
+    gender: str
+    temperature: float
+    heart_rate: int
+    oxygen_saturation: float
+    previous_admissions: int
+    symptom_count: int
+    chronic_condition: int

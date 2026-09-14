@@ -17,7 +17,7 @@ from slowapi import _rate_limit_exceeded_handler
 
 from database import SessionLocal
 from models import Patient, User
-from schemas import PatientCreate, UserCreate
+from schemas import PatientCreate, UserCreate, PredictionRequest
 from auth import (
     hash_password,
     verify_password,
@@ -125,19 +125,6 @@ def get_current_user(
     return verify_access_token(token)
 
 
-# --------------------------------------------------
-# ML PREDICTION SCHEMA
-# --------------------------------------------------
-
-class PredictionRequest(BaseModel):
-    age: int = Field(ge=18, le=89)
-    gender: str
-    temperature: float
-    heart_rate: int
-    oxygen_saturation: float
-    previous_admissions: int
-    symptom_count: int
-    chronic_condition: int = Field(ge=0, le=1)
 
 
 # --------------------------------------------------
