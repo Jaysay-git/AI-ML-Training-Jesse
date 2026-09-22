@@ -1,0 +1,4 @@
+.env
+jaysay/
+__pycache__/
+*.pyc
