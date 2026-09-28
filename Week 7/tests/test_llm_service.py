@@ -1,8 +1,11 @@
 ﻿import logging
+import os
 from unittest.mock import Mock, patch
 
 import pytest
 from google.genai.errors import ServerError
+
+os.environ["GEMINI_API_KEY"] = "test-api-key"
 
 from llm_service import (
     ESTIMATED_COST_PER_REQUEST,
