@@ -1,0 +1,9 @@
+jaysay/
+__pycache__/
+*.pyc
+.env
+uploads/
+*.db
+chroma_db/
+.pytest_cache/
+*.joblib
