@@ -63,7 +63,12 @@ app = FastAPI(
 # ML MODEL
 # ---------------------------------------------------------
 
-model = joblib.load("hospital_risk_model.joblib")
+MODEL_PATH = Path("hospital_risk_model.joblib")
+
+if MODEL_PATH.exists():
+    model = joblib.load(MODEL_PATH)
+else:
+    model = None
 
 
 # ---------------------------------------------------------
