@@ -13,9 +13,11 @@ load_dotenv()
 
 logger = logging.getLogger("hospital_llm")
 
-client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+def get_gemini_client():
+    """Create the Gemini client only when it is needed."""
+    return genai.Client(
+        api_key=os.getenv("GEMINI_API_KEY")
+    )
 
 
 SYSTEM_PROMPT = """
@@ -64,7 +66,7 @@ def extract_patient_information(
         start_time = time.perf_counter()
 
         try:
-            response = client.models.generate_content(
+            response = get_gemini_client().models.generate_content(
                 model="gemini-3.5-flash-lite",
                 contents=f"{SYSTEM_PROMPT}\n\nPatient text:\n{text}",
                 config={
