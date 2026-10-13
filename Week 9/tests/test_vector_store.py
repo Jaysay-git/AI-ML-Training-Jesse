@@ -1,21 +1,17 @@
-﻿from vector_store import collection
-
-
-def test_vector_store_contains_expected_chunks():
-    results = collection.get(
+﻿def test_vector_store_contains_expected_chunks(seeded_collection):
+    results = seeded_collection.get(
         limit=20,
         include=["documents", "metadatas"],
     )
 
-    documents = results["documents"]
-    metadatas = results["metadatas"]
-
-    assert len(documents) == 11
-    assert len(metadatas) == 11
+    assert len(results["documents"]) == 11
+    assert len(results["metadatas"]) == 11
 
 
-def test_vector_store_contains_both_chunking_strategies():
-    results = collection.get(
+def test_vector_store_contains_both_chunking_strategies(
+    seeded_collection,
+):
+    results = seeded_collection.get(
         limit=20,
         include=["metadatas"],
     )
@@ -28,15 +24,17 @@ def test_vector_store_contains_both_chunking_strategies():
     assert strategies == {"paragraph", "fixed"}
 
 
-def test_vector_store_metadata_contains_source_and_pages():
-    results = collection.get(
+def test_vector_store_metadata_contains_source_and_pages(
+    seeded_collection,
+):
+    results = seeded_collection.get(
         limit=20,
         include=["metadatas"],
     )
 
     for metadata in results["metadatas"]:
-        assert metadata["filename"] == "Jesse Osifade - (Q2).pdf"
-        assert metadata["source"] == "uploads/Jesse Osifade - (Q2).pdf"
+        assert metadata["filename"] == "test-document.pdf"
+        assert metadata["source"] == "uploads/test-document.pdf"
         assert metadata["chunking_strategy"] in {
             "paragraph",
             "fixed",
@@ -45,8 +43,8 @@ def test_vector_store_metadata_contains_source_and_pages():
         assert metadata["pages"]
 
 
-def test_vector_store_has_expected_chunk_counts():
-    results = collection.get(
+def test_vector_store_has_expected_chunk_counts(seeded_collection):
+    results = seeded_collection.get(
         limit=20,
         include=["metadatas"],
     )

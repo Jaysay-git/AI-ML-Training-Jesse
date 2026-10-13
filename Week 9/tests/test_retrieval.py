@@ -1,7 +1,7 @@
 from retrieval import keyword_search, vector_search, hybrid_search
 
 
-def test_keyword_search_returns_results():
+def test_keyword_search_returns_results(seeded_collection):
     results = keyword_search(
         "What department and position does the employee have?",
         n_results=3,
@@ -15,7 +15,7 @@ def test_keyword_search_returns_results():
     assert all("keyword_score" in result for result in results)
 
 
-def test_vector_search_returns_results():
+def test_vector_search_returns_results(seeded_collection):
     results = vector_search(
         "What department and position does the employee have?",
         n_results=3,
@@ -28,7 +28,7 @@ def test_vector_search_returns_results():
     assert all("distance" in result for result in results)
 
 
-def test_hybrid_search_returns_ranked_results():
+def test_hybrid_search_returns_ranked_results(seeded_collection):
     results = hybrid_search(
         "What department and position does the employee have?",
         n_results=3,
@@ -40,7 +40,6 @@ def test_hybrid_search_returns_ranked_results():
     assert all("hybrid_score" in result for result in results)
 
     scores = [result["hybrid_score"] for result in results]
-
     assert scores == sorted(scores, reverse=True)
 
 
