@@ -9,7 +9,9 @@ from vector_store import add_chunks
 
 load_dotenv()
 
-client = genai.Client()
+def get_gemini_client():
+    """Create the Gemini client only when needed."""
+    return genai.Client()
 
 
 def extract_text(file_path: Path) -> str:
@@ -126,8 +128,11 @@ def chunk_text_by_paragraph(
     return chunks
 
 
+
 def generate_embedding(text: str) -> list[float]:
     """Generate a Gemini embedding for a text chunk."""
+
+    client = get_gemini_client()
 
     response = client.models.embed_content(
         model="gemini-embedding-001",
@@ -135,6 +140,7 @@ def generate_embedding(text: str) -> list[float]:
     )
 
     return response.embeddings[0].values
+
 
 
 def ingest_document(
