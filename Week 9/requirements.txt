@@ -100,3 +100,4 @@ yarl==1.25.1
 pytest==9.1.1
 joblib
 scikit-learn
+pandas
