@@ -4,9 +4,16 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "Week 2/**"
+      - ".github/workflows/week2-tests.yml"
   pull_request:
     branches:
       - main
+    paths:
+      - "Week 2/**"
+      - ".github/workflows/week2-tests.yml"
+  workflow_dispatch:
 
 jobs:
   test:
