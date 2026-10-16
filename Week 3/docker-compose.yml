@@ -1,7 +1,6 @@
 services:
   db:
     image: postgres:18
-    container_name: hospital_postgres
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -10,6 +9,15 @@ services:
       - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@db:5432/hospital_patients
+    depends_on:
+      - db
 
 volumes:
   postgres_data:

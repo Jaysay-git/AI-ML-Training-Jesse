@@ -93,6 +93,14 @@ class NewPatientInformation(BaseModel):
     temperature: Optional[float] = None
 
 
+class AIRequestMetadata(BaseModel):
+    latency: float
+    estimated_cost: float
+    attempts: int
+    status: str
+
+
 class PatientExtractionResponse(BaseModel):
     patient: PatientRecordResponse
     new_information: NewPatientInformation
+    ai_metadata: AIRequestMetadata

@@ -8,7 +8,6 @@ from google.genai.errors import ServerError
 
 from schemas import ExtractedPatientInfo
 
-
 load_dotenv()
 
 logger = logging.getLogger("hospital_llm")
@@ -16,7 +15,6 @@ logger = logging.getLogger("hospital_llm")
 client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
-
 
 SYSTEM_PROMPT = """
 You are a patient information extraction assistant.
@@ -43,9 +41,11 @@ The application will retrieve the patient's existing record
 from its database separately.
 """
 
-
 # Application-level cost estimate for monitoring.
 ESTIMATED_COST_PER_REQUEST = 0.001
+
+# Stores metadata from the most recent LLM request.
+last_request_metadata = {}
 
 
 class MalformedLLMResponseError(ValueError):
@@ -54,7 +54,7 @@ class MalformedLLMResponseError(ValueError):
 
 
 def extract_patient_information(
-    text: str,
+    text: str
 ) -> ExtractedPatientInfo:
 
     max_attempts = 2
@@ -64,9 +64,13 @@ def extract_patient_information(
         start_time = time.perf_counter()
 
         try:
+
             response = client.models.generate_content(
                 model="gemini-3.5-flash-lite",
-                contents=f"{SYSTEM_PROMPT}\n\nPatient text:\n{text}",
+                contents=(
+                    f"{SYSTEM_PROMPT}\n\n"
+                    f"Patient text:\n{text}"
+                ),
                 config={
                     "response_mime_type": "application/json",
                     "response_schema": ExtractedPatientInfo,
@@ -77,6 +81,14 @@ def extract_patient_information(
             )
 
             latency = time.perf_counter() - start_time
+
+            # Store metadata for the API/frontend.
+            last_request_metadata.update({
+                "latency": latency,
+                "estimated_cost": ESTIMATED_COST_PER_REQUEST,
+                "attempts": attempt,
+                "status": "success",
+            })
 
             logger.info(
                 "llm_request_success "
@@ -92,11 +104,13 @@ def extract_patient_information(
             response_text = response.text
 
             try:
+
                 return ExtractedPatientInfo.model_validate_json(
                     response_text
                 )
 
             except Exception as exc:
+
                 logger.error(
                     "llm_malformed_response error=%s",
                     str(exc),
@@ -107,6 +121,7 @@ def extract_patient_information(
                 ) from exc
 
         except MalformedLLMResponseError:
+
             raise
 
         except ServerError as exc:
@@ -122,9 +137,11 @@ def extract_patient_information(
             )
 
             if attempt < max_attempts:
+
                 logger.info(
                     "Temporary Gemini failure. Retrying once..."
                 )
+
                 continue
 
             raise RuntimeError(
@@ -143,9 +160,11 @@ def extract_patient_information(
             )
 
             if attempt < max_attempts:
+
                 logger.info(
                     "Gemini request timed out. Retrying once..."
                 )
+
                 continue
 
             raise RuntimeError(
@@ -155,9 +174,9 @@ def extract_patient_information(
         except Exception as exc:
 
             latency = time.perf_counter() - start_time
+
             error_message = str(exc)
 
-            # Gemini's SDK may raise a generic exception for timeouts.
             if "timed out" in error_message.lower():
 
                 logger.warning(
@@ -168,9 +187,11 @@ def extract_patient_information(
                 )
 
                 if attempt < max_attempts:
+
                     logger.info(
                         "Gemini request timed out. Retrying once..."
                     )
+
                     continue
 
                 raise RuntimeError(
@@ -186,5 +207,6 @@ def extract_patient_information(
             )
 
             raise RuntimeError(
-                "An unexpected error occurred while processing the LLM request."
+                "An unexpected error occurred while processing "
+                "the LLM request."
             ) from exc

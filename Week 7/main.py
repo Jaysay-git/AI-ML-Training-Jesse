@@ -29,7 +29,10 @@ from auth import (
     create_access_token,
     verify_access_token
 )
-from llm_service import extract_patient_information
+from llm_service import (
+    extract_patient_information,
+    last_request_metadata,
+)
 
 
 app = FastAPI(
@@ -543,9 +546,11 @@ def extract_patient(
                 },
 
                 "new_information": {
-                "symptoms": extracted.symptoms,
-                "temperature": extracted.temperature,
-                }
+                    "symptoms": extracted.symptoms,
+                    "temperature": extracted.temperature,
+                },
+
+                "ai_metadata": last_request_metadata.copy()
             }
 
         finally:
