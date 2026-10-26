@@ -6,9 +6,10 @@ Week 10 extends the hospital AI/ML course project with an AI agent that selects 
 
 ## Architecture
 
-User request → Agent → Tool selection → Tool execution → Structured response
+**User request → Agent → Tool selection → Tool execution → Structured response**
 
-Available tools:
+### Available tools
+
 - `ask_documents` — queries the Week 9 document RAG API.
 - `predict_hospital_risk` — calls the Week 6 hospital risk prediction API.
 - `lookup_information` — handles supported general information lookups.
@@ -28,37 +29,53 @@ Gemini is used for tool selection, with rule-based fallback behaviour when the m
 - `evaluation_offline.py` — offline checks for tool selection and guardrails.
 - `tests/test_agent.py` — automated agent tests.
 
-## Requirements
+## Requirements and Configuration
 
-Install the dependencies using:
+Run the commands below from the repository's `Week 10` directory, using the course virtual environment if it is already configured.
 
-```bash
-pip install -r requirements.txt
+```powershell
+Set-Location "C:\Users\jesseos\Downloads\AI-ML COURSE\Week 10"
+& "..\Week 8\jaysay\Scripts\Activate.ps1"
+python -m pip install -r requirements.txt
 ```
 
-Configure the required Gemini API key in a local `.env` file. Do not commit secrets. `.env.example` should contain placeholder values only.
+Configure the required Gemini API key in a local `.env` file if needed by your configuration. Never commit real API keys or other secrets. The `.env.example` file should contain placeholder values only.
 
-## Running the API
+## Running the APIs
 
-Start the Week 9 RAG API first if document questions are required:
+### 1. Start the Week 9 RAG API
 
-```bash
-cd "../Week 9"
-uvicorn main:app --reload --port 8000
+Open a terminal:
+
+```powershell
+Set-Location "C:\Users\jesseos\Downloads\AI-ML COURSE\Week 9"
+& "..\Week 8\jaysay\Scripts\Activate.ps1"
+python -m uvicorn main:app --reload --port 8000
 ```
 
-In a separate terminal, start Week 10:
+Week 9 must be running for document question-answering requests. Ensure the relevant documents have been ingested into the RAG system.
 
-```bash
-cd "../Week 10"
-uvicorn main:app --reload --port 8002
+### 2. Start the Week 6 prediction API
+
+In another terminal, start the Week 6 application using its configured entry point and port `8001`.
+
+The Week 6 service must be running for hospital-risk prediction requests. Confirm its actual startup command in the Week 6 README or application configuration.
+
+### 3. Start the Week 10 agent
+
+Open another terminal:
+
+```powershell
+Set-Location "C:\Users\jesseos\Downloads\AI-ML COURSE\Week 10"
+& "..\Week 8\jaysay\Scripts\Activate.ps1"
+python -m uvicorn main:app --reload --port 8002
 ```
 
 The Week 10 interactive API documentation is available at:
 
-`http://127.0.0.1:8002/docs`
+**http://127.0.0.1:8002/docs**
 
-The Week 10 agent is configured to call Week 9 on port `8000` and Week 6 on port `8001`.
+The agent calls Week 9 on port `8000` and Week 6 on port `8001`.
 
 ## API Endpoint
 
@@ -72,33 +89,50 @@ Example request:
 }
 ```
 
-The agent selects a suitable tool, executes it, and returns a structured response with execution information and document citations when available.
+The agent selects a suitable tool, executes it, and returns a structured response containing the answer and execution information, with document citations when available.
+
+Use the interactive Swagger documentation at `/docs` to submit requests and inspect responses.
+
+## Viewing Agent Logs
+
+After submitting at least one request to the agent, open a terminal in the Week 10 directory and run:
+
+```powershell
+Get-Content .\logs\agent.jsonl -Tail 20
+```
+
+This displays the latest entries in the agent log, if logging has created the file.
+
+The logs can help inspect tool execution and errors. The exact event details depend on the tracing implementation.
 
 ## Testing
 
-Run the Week 10 test suite:
+From the Week 10 directory, run the automated tests:
 
-```bash
+```powershell
 python -m pytest tests -v
 ```
 
 Run the offline evaluation:
 
-```bash
+```powershell
 python evaluation_offline.py
 ```
 
-Latest recorded results during development:
+These commands test the local agent implementation and the offline evaluation scenarios. They do not, by themselves, prove that Gemini or the Week 6 and Week 9 APIs are working end to end.
+
+### Previously Recorded Results
+
 - Automated tests: 19 passed.
 - Offline evaluation: 10/10 checks passed.
 
-These results are the last reported results and may change after code updates.
+These are historical development results. Run the commands above to verify the current code.
 
 ## Guardrails and Limitations
 
 - Tool selection uses Gemini with a rule-based fallback.
 - Tool execution is constrained by the available tool definitions and guardrails.
-- Document answers rely on the Week 9 RAG service and its retrieved sources.
+- Document answers depend on the Week 9 RAG service and its retrieved sources.
 - Week 6 prediction requests require the Week 6 service to be running.
 - Gemini availability may be affected by rate limits or temporary service errors.
 - The offline evaluation does not measure live Gemini accuracy or end-to-end answer quality.
