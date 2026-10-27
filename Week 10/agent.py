@@ -106,7 +106,7 @@ def select_tool(message: str) -> tuple[str, dict[str, Any]]:
         trace_event(
             "tool_selection_fallback",
             {
-                "reason": str(exc),
+                "reason": "tool_selection_error",
                 "method": "rules",
             },
         )
@@ -186,7 +186,7 @@ def run_agent(message: str) -> dict[str, Any]:
     steps: list[AgentStep] = []
     tool_calls = 0
 
-    trace_event("request_started", {"message": message})
+    trace_event("request_started", {"message_length": len(message)})
 
     if not is_within_scope(message):
         trace_event("request_refused", {"reason": "out_of_scope"})
@@ -233,7 +233,7 @@ def run_agent(message: str) -> dict[str, Any]:
 
         trace_event(
             "tool_call_completed",
-            {"tool_name": tool_name, "result": result},
+            {"tool_name": tool_name, "status": "success"},
         )
 
         if tool_name == "ask_documents":
@@ -267,7 +267,7 @@ def run_agent(message: str) -> dict[str, Any]:
             "tool_call_failed",
             {
                 "tool_name": tool_name,
-                "error": str(exc),
+                "error": "tool_execution_error",
             },
         )
 

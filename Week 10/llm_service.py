@@ -7,6 +7,7 @@ from google import genai
 from pydantic import ValidationError
 
 from schemas import ToolCall
+from azure_config import get_gemini_api_key
 
 
 load_dotenv()
@@ -58,10 +59,7 @@ Never invent patient measurements.
 
 def choose_tool_with_gemini(message: str) -> ToolCall:
     """Ask Gemini to select a registered tool using structured JSON output."""
-    api_key = os.getenv("GEMINI_API_KEY")
-
-    if not api_key:
-        raise RuntimeError("GEMINI_API_KEY is not configured.")
+    api_key = get_gemini_api_key()
 
     client = genai.Client(api_key=api_key)
 

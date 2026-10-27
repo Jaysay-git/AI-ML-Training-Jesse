@@ -5,3 +5,26 @@ __pycache__/
 venv/
 .env
 .vscode/
+
+# Local logs
+logs/
+**/logs/
+*.log
+*.jsonl
+
+# Local databases and vector stores
+chroma_db/
+**/chroma_db/
+
+# Local secrets and environment files
+.env.*
+!.env.example
+
+# Local model artifacts
+*.joblib
+*.pkl
+*.pickle
+
+# Test and coverage artifacts
+.coverage
+htmlcov/

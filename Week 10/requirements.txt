@@ -7,3 +7,8 @@ python-dotenv
 google-genai
 pytest
 httpx
+
+# Azure security and monitoring
+azure-identity
+azure-keyvault-secrets
+azure-monitor-opentelemetry
