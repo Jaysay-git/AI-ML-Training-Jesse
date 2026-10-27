@@ -1,0 +1,51 @@
+name: Week 11 Security Checks
+
+on:
+  push:
+    paths:
+      - "Week 10/**"
+      - "Week 11/**"
+      - ".github/workflows/week11-security.yml"
+  pull_request:
+    paths:
+      - "Week 10/**"
+      - "Week 11/**"
+      - ".github/workflows/week11-security.yml"
+  workflow_dispatch:
+
+jobs:
+  security-checks:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: "Week 10"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: "Week 10/requirements.txt"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pip-audit
+
+      - name: Check Python syntax
+        run: python -m py_compile agent.py main.py tracing.py monitoring.py azure_config.py
+
+      - name: Run Week 10 tests
+        run: python -m pytest tests -v
+
+      - name: Run offline evaluation
+        run: python evaluation_offline.py
+
+      - name: Audit dependencies
+        run: python -m pip_audit -r requirements.txt
