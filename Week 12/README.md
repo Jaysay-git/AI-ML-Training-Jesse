@@ -154,3 +154,11 @@ Week 12/
 ├── docker-compose.yml
 ├── requirements-api.txt
 └── README.md
+
+## Demo & Presentation
+
+### FoodBud AI Project Demonstration
+
+Watch the screen recording to see the platform's dashboard, price exploration, city comparison, price submission, bulk upload, and FoodBud AI features.
+
+[Watch the FoodBud AI Demo](demo/FoodBud-AI-Demo.mp4)
