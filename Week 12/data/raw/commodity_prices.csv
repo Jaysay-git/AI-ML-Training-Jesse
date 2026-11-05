@@ -1,0 +1,433 @@
+commodity,category,location,state,unit,price,recorded_at,data_source
+Rice,Grains,Lagos,Lagos State,1 kg,1820.08,2025-01-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,1774.89,2025-02-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,1855.98,2025-03-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,1892.15,2025-04-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2017.46,2025-05-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2053.63,2025-06-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2134.94,2025-07-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2045.11,2025-08-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2146.51,2025-09-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2122.06,2025-10-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2199.35,2025-11-01,SIMULATED
+Rice,Grains,Lagos,Lagos State,1 kg,2295.98,2025-12-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1587.5,2025-01-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1650.5,2025-02-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1753.27,2025-03-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1780.13,2025-04-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1774.41,2025-05-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1869.51,2025-06-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1944.47,2025-07-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,1862.21,2025-08-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,2028.44,2025-09-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,2053.29,2025-10-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,2036.14,2025-11-01,SIMULATED
+Rice,Grains,Ibadan,Oyo State,1 kg,2045.77,2025-12-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,1814.01,2025-01-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,1770.3,2025-02-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,1777.63,2025-03-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,1820.56,2025-04-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,1978.51,2025-05-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,1985.09,2025-06-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,2061.95,2025-07-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,2094.04,2025-08-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,2106.09,2025-09-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,2224.89,2025-10-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,2166.24,2025-11-01,SIMULATED
+Rice,Grains,Abuja,Federal Capital Territory,1 kg,2240.54,2025-12-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2257.98,2025-01-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2276.38,2025-02-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2376.84,2025-03-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2379.64,2025-04-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2459.61,2025-05-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2385.07,2025-06-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2474.93,2025-07-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2541.45,2025-08-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2551.25,2025-09-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2637.39,2025-10-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2662.22,2025-11-01,SIMULATED
+Beans,Grains,Lagos,Lagos State,1 kg,2755.18,2025-12-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2021.71,2025-01-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2027.83,2025-02-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2078.19,2025-03-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2100.04,2025-04-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2158.99,2025-05-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2328.6,2025-06-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2327.24,2025-07-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2370.52,2025-08-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2336.86,2025-09-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2494.91,2025-10-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2432.68,2025-11-01,SIMULATED
+Beans,Grains,Ibadan,Oyo State,1 kg,2525.41,2025-12-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2234.2,2025-01-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2228.43,2025-02-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2267.79,2025-03-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2345.39,2025-04-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2429.87,2025-05-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2472.16,2025-06-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2418.91,2025-07-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2431.69,2025-08-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2541.91,2025-09-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2584.81,2025-10-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2625.36,2025-11-01,SIMULATED
+Beans,Grains,Abuja,Federal Capital Territory,1 kg,2838.38,2025-12-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1236.13,2025-01-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1211.76,2025-02-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1275.67,2025-03-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1279.23,2025-04-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1363.78,2025-05-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1345.56,2025-06-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1354.04,2025-07-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1381.42,2025-08-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1447.07,2025-09-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1442.1,2025-10-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1510.15,2025-11-01,SIMULATED
+Maize,Grains,Lagos,Lagos State,1 kg,1578.69,2025-12-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1041.55,2025-01-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1052.08,2025-02-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1146.38,2025-03-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1129.61,2025-04-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1117.2,2025-05-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1138.45,2025-06-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1169.79,2025-07-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1246.33,2025-08-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1289.44,2025-09-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1278.24,2025-10-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1266.67,2025-11-01,SIMULATED
+Maize,Grains,Ibadan,Oyo State,1 kg,1326.07,2025-12-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1195.64,2025-01-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1181.5,2025-02-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1253.01,2025-03-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1271.93,2025-04-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1215.56,2025-05-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1316.59,2025-06-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1341.72,2025-07-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1355.25,2025-08-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1354.26,2025-09-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1424.64,2025-10-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1392.83,2025-11-01,SIMULATED
+Maize,Grains,Abuja,Federal Capital Territory,1 kg,1458.6,2025-12-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1095.93,2025-01-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1168.43,2025-02-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1189.73,2025-03-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1160.12,2025-04-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1210.06,2025-05-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1205.69,2025-06-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1306.76,2025-07-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1330.81,2025-08-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1298.72,2025-09-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1362.48,2025-10-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1386.99,2025-11-01,SIMULATED
+Garri,Grains,Lagos,Lagos State,1 kg,1363.55,2025-12-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,969.95,2025-01-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,976.82,2025-02-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1019.73,2025-03-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1023.73,2025-04-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1003.25,2025-05-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1053.72,2025-06-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1050.5,2025-07-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1154.57,2025-08-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1174.54,2025-09-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1194.63,2025-10-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1169.21,2025-11-01,SIMULATED
+Garri,Grains,Ibadan,Oyo State,1 kg,1168.41,2025-12-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1081.75,2025-01-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1114.73,2025-02-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1065.95,2025-03-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1127.48,2025-04-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1115.2,2025-05-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1205.88,2025-06-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1233.18,2025-07-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1197.07,2025-08-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1257.51,2025-09-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1291.37,2025-10-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1287.83,2025-11-01,SIMULATED
+Garri,Grains,Abuja,Federal Capital Territory,1 kg,1378.64,2025-12-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),5466.18,2025-01-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),5507.52,2025-02-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),5793.15,2025-03-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6021.26,2025-04-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),5905.36,2025-05-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6094.3,2025-06-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6575.55,2025-07-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6539.99,2025-08-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6567.32,2025-09-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6746.97,2025-10-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6666.55,2025-11-01,SIMULATED
+Eggs,Protein,Lagos,Lagos State,1 crate (30 eggs),6858.06,2025-12-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),4935.23,2025-01-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5161.21,2025-02-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5136.65,2025-03-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5254.69,2025-04-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5311.24,2025-05-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5684.0,2025-06-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5625.31,2025-07-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),6065.55,2025-08-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),6172.62,2025-09-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),5914.72,2025-10-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),6119.0,2025-11-01,SIMULATED
+Eggs,Protein,Ibadan,Oyo State,1 crate (30 eggs),6461.18,2025-12-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),5178.84,2025-01-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),5272.7,2025-02-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),5758.89,2025-03-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),5729.88,2025-04-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),5817.25,2025-05-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6098.26,2025-06-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6244.94,2025-07-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6073.26,2025-08-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6154.92,2025-09-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6456.69,2025-10-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6584.5,2025-11-01,SIMULATED
+Eggs,Protein,Abuja,Federal Capital Territory,1 crate (30 eggs),6739.67,2025-12-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,6619.12,2025-01-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,6754.9,2025-02-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7089.35,2025-03-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,6763.02,2025-04-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7094.3,2025-05-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7218.49,2025-06-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7691.28,2025-07-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7483.93,2025-08-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7606.69,2025-09-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,7929.77,2025-10-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,8074.22,2025-11-01,SIMULATED
+Chicken,Protein,Lagos,Lagos State,1 kg,8140.68,2025-12-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,5879.91,2025-01-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,6358.25,2025-02-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,6271.34,2025-03-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,6636.46,2025-04-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,6626.57,2025-05-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,6507.32,2025-06-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,7175.6,2025-07-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,7239.52,2025-08-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,7470.14,2025-09-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,7600.7,2025-10-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,7709.22,2025-11-01,SIMULATED
+Chicken,Protein,Ibadan,Oyo State,1 kg,7445.78,2025-12-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,6292.76,2025-01-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,6309.62,2025-02-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,6562.63,2025-03-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,6533.37,2025-04-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,6862.9,2025-05-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,7362.67,2025-06-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,7108.91,2025-07-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,7570.73,2025-08-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,7532.79,2025-09-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,7669.96,2025-10-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,8163.11,2025-11-01,SIMULATED
+Chicken,Protein,Abuja,Federal Capital Territory,1 kg,8350.86,2025-12-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,7533.46,2025-01-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,7821.82,2025-02-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,7657.52,2025-03-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,7931.38,2025-04-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,8559.35,2025-05-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,8490.95,2025-06-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,8654.11,2025-07-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,8987.32,2025-08-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,8681.16,2025-09-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,9249.37,2025-10-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,9377.14,2025-11-01,SIMULATED
+Beef,Protein,Lagos,Lagos State,1 kg,9832.33,2025-12-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,6808.16,2025-01-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7439.49,2025-02-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7103.11,2025-03-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7335.87,2025-04-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7758.54,2025-05-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7985.38,2025-06-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7879.47,2025-07-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,7974.89,2025-08-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,8662.27,2025-09-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,8400.9,2025-10-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,8816.16,2025-11-01,SIMULATED
+Beef,Protein,Ibadan,Oyo State,1 kg,9010.24,2025-12-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,7252.83,2025-01-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,7532.59,2025-02-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,7678.97,2025-03-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8120.41,2025-04-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,7840.02,2025-05-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8354.54,2025-06-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8219.5,2025-07-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8505.99,2025-08-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8880.32,2025-09-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8799.42,2025-10-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,8990.81,2025-11-01,SIMULATED
+Beef,Protein,Abuja,Federal Capital Territory,1 kg,9495.04,2025-12-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,4829.02,2025-01-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,5107.9,2025-02-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,5459.35,2025-03-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,5588.32,2025-04-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,5312.23,2025-05-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,5495.92,2025-06-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,5641.99,2025-07-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,6078.63,2025-08-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,6182.81,2025-09-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,6310.84,2025-10-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,6184.76,2025-11-01,SIMULATED
+Fish,Protein,Lagos,Lagos State,1 kg,6200.45,2025-12-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,4722.82,2025-01-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,4791.78,2025-02-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,4873.15,2025-03-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5137.75,2025-04-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5122.33,2025-05-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,4971.24,2025-06-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5424.2,2025-07-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5318.25,2025-08-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5592.15,2025-09-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5832.87,2025-10-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5581.77,2025-11-01,SIMULATED
+Fish,Protein,Ibadan,Oyo State,1 kg,5684.56,2025-12-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,4649.1,2025-01-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,4940.95,2025-02-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,4948.21,2025-03-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5203.27,2025-04-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5371.92,2025-05-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5271.95,2025-06-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5579.28,2025-07-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5533.51,2025-08-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5754.72,2025-09-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,6070.67,2025-10-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,6166.13,2025-11-01,SIMULATED
+Fish,Protein,Abuja,Federal Capital Territory,1 kg,5920.39,2025-12-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,2782.88,2025-01-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,2818.73,2025-02-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,2823.23,2025-03-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3075.29,2025-04-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3113.78,2025-05-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3090.01,2025-06-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3282.14,2025-07-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3303.6,2025-08-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3340.56,2025-09-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3295.45,2025-10-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3381.07,2025-11-01,SIMULATED
+Palm oil,Cooking essentials,Lagos,Lagos State,1 litre,3679.42,2025-12-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2684.02,2025-01-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2674.72,2025-02-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2803.08,2025-03-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2813.45,2025-04-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2779.48,2025-05-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2837.82,2025-06-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,2944.14,2025-07-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,3152.51,2025-08-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,3193.91,2025-09-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,3276.91,2025-10-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,3353.72,2025-11-01,SIMULATED
+Palm oil,Cooking essentials,Ibadan,Oyo State,1 litre,3238.11,2025-12-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,2645.9,2025-01-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,2679.56,2025-02-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,2898.53,2025-03-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,2991.7,2025-04-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,2947.76,2025-05-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3066.82,2025-06-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3019.19,2025-07-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3281.6,2025-08-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3334.51,2025-09-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3433.5,2025-10-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3458.91,2025-11-01,SIMULATED
+Palm oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3547.54,2025-12-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,3366.94,2025-01-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,3655.39,2025-02-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,3625.66,2025-03-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,3892.18,2025-04-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,3943.09,2025-05-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4052.18,2025-06-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4125.06,2025-07-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4035.78,2025-08-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4296.56,2025-09-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4153.08,2025-10-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4505.26,2025-11-01,SIMULATED
+Vegetable oil,Cooking essentials,Lagos,Lagos State,1 litre,4590.52,2025-12-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3226.72,2025-01-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3468.17,2025-02-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3454.0,2025-03-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3492.21,2025-04-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3715.77,2025-05-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3631.6,2025-06-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3650.38,2025-07-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3782.31,2025-08-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,3905.59,2025-09-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,4160.33,2025-10-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,4279.07,2025-11-01,SIMULATED
+Vegetable oil,Cooking essentials,Ibadan,Oyo State,1 litre,4133.15,2025-12-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3438.48,2025-01-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3457.03,2025-02-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3707.42,2025-03-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3665.59,2025-04-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3871.42,2025-05-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3707.29,2025-06-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,4057.14,2025-07-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,3892.27,2025-08-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,4230.97,2025-09-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,4086.85,2025-10-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,4116.86,2025-11-01,SIMULATED
+Vegetable oil,Cooking essentials,Abuja,Federal Capital Territory,1 litre,4312.31,2025-12-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2545.71,2025-01-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2524.3,2025-02-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2647.3,2025-03-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2689.96,2025-04-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2724.74,2025-05-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2829.73,2025-06-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2818.59,2025-07-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2986.56,2025-08-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,2880.41,2025-09-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,3166.77,2025-10-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,3134.61,2025-11-01,SIMULATED
+Tomatoes,Vegetables,Lagos,Lagos State,1 kg,3243.45,2025-12-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2242.58,2025-01-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2285.78,2025-02-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2284.91,2025-03-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2283.64,2025-04-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2451.8,2025-05-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2441.38,2025-06-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2492.34,2025-07-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2656.97,2025-08-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2686.41,2025-09-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2651.95,2025-10-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2708.04,2025-11-01,SIMULATED
+Tomatoes,Vegetables,Ibadan,Oyo State,1 kg,2784.44,2025-12-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2381.26,2025-01-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2419.78,2025-02-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2444.86,2025-03-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2563.58,2025-04-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2733.0,2025-05-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2738.3,2025-06-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2848.94,2025-07-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2846.06,2025-08-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2834.14,2025-09-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2951.27,2025-10-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,2880.1,2025-11-01,SIMULATED
+Tomatoes,Vegetables,Abuja,Federal Capital Territory,1 kg,3007.84,2025-12-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,2983.17,2025-01-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3094.68,2025-02-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3188.99,2025-03-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3215.97,2025-04-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3284.73,2025-05-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3297.7,2025-06-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3442.6,2025-07-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3638.13,2025-08-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3685.26,2025-09-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3577.89,2025-10-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3625.44,2025-11-01,SIMULATED
+Yam,Tubers,Lagos,Lagos State,1 tuber,3829.73,2025-12-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,2728.72,2025-01-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,2731.01,2025-02-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,2907.22,2025-03-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,2960.81,2025-04-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3011.06,2025-05-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,2970.59,2025-06-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3030.26,2025-07-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3051.8,2025-08-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3173.86,2025-09-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3300.92,2025-10-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3469.43,2025-11-01,SIMULATED
+Yam,Tubers,Ibadan,Oyo State,1 tuber,3324.86,2025-12-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,2880.15,2025-01-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3003.36,2025-02-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,2970.56,2025-03-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3166.47,2025-04-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3188.57,2025-05-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3195.68,2025-06-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3376.64,2025-07-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3272.71,2025-08-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3549.87,2025-09-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3629.25,2025-10-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3510.91,2025-11-01,SIMULATED
+Yam,Tubers,Abuja,Federal Capital Territory,1 tuber,3675.36,2025-12-01,SIMULATED

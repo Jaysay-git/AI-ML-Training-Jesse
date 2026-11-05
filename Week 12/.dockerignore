@@ -1,0 +1,17 @@
+jay/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.git/
+.gitignore
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+tests/
+frontend/
+data/
+scripts/
